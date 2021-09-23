@@ -1,13 +1,21 @@
 // ===================================================ШРИФТЫ====================================================================================================================
-// @mixin med() {
-// 	font-family: "", sans-serif;
-// 	font-weight: 500;
-// }
+@mixin med() {
+	font-family: "Roboto-med", sans-serif;
+	font-weight: 500;
+}
 
-// @mixin bold() {
-// 	font-family: "", sans-serif;
-// 	font-weight: 700;
-// }
+@mixin black() {
+	font-family: "Roboto-bold", sans-serif;
+	font-weight: 900;
+}
+@mixin bold() {
+	font-family: "Roboto-bold", sans-serif;
+	font-weight: 700;
+}
+@mixin reg() {
+	font-family: "Roboto-bold", sans-serif;
+	font-weight: 400;
+}
 // ========ПРИМЕР=======
 // @mixin reg-(сокращение от название) {
 // 	font-family: 'Название шрифта', sans-serif;

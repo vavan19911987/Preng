@@ -1,0 +1,61 @@
+.about {
+    min-height: 100vh;
+    // height: 700px;
+    background: url("../img/bg3.png") center (center/cover) no-repeat;
+
+    &__header {
+        padding-top: 39px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__menu {
+        @include bold;
+        a {
+            color: $color-white;
+            padding-right: 46px;
+        }
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    &__text {
+        width: 530px;
+
+        padding-top: 133px;
+        .text {
+            font-size: 32px;
+            line-height: 38px;
+            @include black;
+            color: $color-white;
+        }
+        .subtext {
+            padding-top: 27px;
+            font-size: 24px;
+            line-height: 30px;
+            @include reg;
+            color: $color-white;
+        }
+        .btn {
+            padding: 24px 46px;
+            margin-top: 39px;
+            background-color: #00c2f0;
+            border-radius: 5px;
+            color: $color-white;
+            font-size: 16px;
+            line-height: 30px;
+            text-transform: uppercase;
+            @include bold;
+
+
+        }
+    }
+    &__phone {
+        img {
+            position: relative;
+            bottom: -15px;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.info {
+    padding: 19px 0 16px 0;
+    &__block {
+        display: grid;
+        grid-template: repeat(1, 50px) / repeat(5, 172px);
+        justify-content: space-between;
+
+        // grid-auto-rows: minmax(50px, auto);
+        // grid-template-rows: minmax(50px, auto);
+        // gap: 13px;
+    }
+    &__item {
+        display: grid;
+        grid-template-columns: 28px 130px;
+        column-gap: 11px;
+        
+        &-title {
+            line-height: 18px;
+            a {
+                color: $color-text;
+            }
+            h2 {
+                @include bold
+            }
+        }
+    }
+}
