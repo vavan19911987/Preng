@@ -8,7 +8,6 @@ window.addEventListener('DOMContentLoaded', function () {
         nav: false,
         controls: false,
         speed: 1300,
-        
         responsive: {
             320: {
                 nav: true
@@ -17,7 +16,6 @@ window.addEventListener('DOMContentLoaded', function () {
                 nav: true,
             },
         }
-
     });
 
     document.querySelector('.prev').addEventListener('click', function () {
@@ -26,8 +24,35 @@ window.addEventListener('DOMContentLoaded', function () {
     document.querySelector('.next').addEventListener('click', function () {
         slider.goTo('next');
     });
-   
-    new WOW().init();
+
+
+    const sliderTow = tns({
+        container: '.carusel__inner',
+        items: 1,
+        slideBy: 'page',
+        autoplay: false,
+        nav: false,
+        controls: false,
+        speed: 1300,
+        responsive: {
+            320: {
+                nav: true
+            },
+            992: {
+                nav: true,
+            },
+        }
+    });
+    document.querySelector('.prev_2').addEventListener('click', function () {
+        sliderTow.goTo('prev');
+    });
+    document.querySelector('.next_2').addEventListener('click', function () {
+        sliderTow.goTo('next');
+    });
+
+    
+
+
 
 });
 

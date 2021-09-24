@@ -1,5 +1,6 @@
 .prengi {
     padding-top: 79px;
+    // padding-bottom: 80px;
     &__wrapper {
         display: grid;
         grid-template: repeat(2, minmax(70px, auto)) / repeat(3, 350px);

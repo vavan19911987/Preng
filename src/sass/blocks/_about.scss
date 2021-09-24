@@ -1,6 +1,6 @@
 .about {
     min-height: 100vh;
-    background: url("../img/bg3.png") center (center/cover) no-repeat;
+    background: url("../img/bg3.png") 50% / cover no-repeat;
 
     &__header {
         padding-top: 39px;
@@ -53,24 +53,23 @@
             @include bold;
         }
     }
-}
-
-.prev,
-.next {
-    position: absolute;
-    top: 110%;
-    transform: translateY(-30%);
-    left: 45%;
-    border: none;
-    // background-color: #fff;
-    cursor: pointer;
-    img {
-        width: 15px;
-        height: 15px;
-        margin: 0 auto;
+    .prev,
+    .next {
+        position: absolute;
+        top: 110%;
+        transform: translateY(-30%);
+        left: 45%;
+        border: none;
+        // background-color: #fff;
+        cursor: pointer;
+        img {
+            width: 15px;
+            height: 15px;
+            margin: 0 auto;
+        }
     }
-}
-.next {
-    right: 45%;
-    left: auto;
+    .next {
+        right: 45%;
+        left: auto;
+    }
 }
