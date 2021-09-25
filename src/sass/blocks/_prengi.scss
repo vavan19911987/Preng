@@ -1,9 +1,15 @@
 .prengi {
     padding-top: 79px;
     // padding-bottom: 80px;
+    &__info {
+        img {
+            width: 300px;
+        }
+    }
     &__wrapper {
         display: grid;
-        grid-template: repeat(2, minmax(70px, auto)) / repeat(3, 350px);
+        grid-template: repeat(2, minmax(70px, auto)) / repeat(3, 300px);
+        justify-content: center;
         column-gap: 31px;
         max-width: 1143px;
     }
