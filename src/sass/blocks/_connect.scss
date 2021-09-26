@@ -1,0 +1,14 @@
+.connect {
+    min-height: 100vh;
+    // margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+    &__title {
+        font-size: 30px;
+        line-height: 36px;
+        color: #393939;
+        text-align: center;
+        @include black;
+        padding-top: 74px;
+    }
+}

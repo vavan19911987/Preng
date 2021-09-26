@@ -43,6 +43,9 @@
             line-height: 25px;
             color: #ffffff;
             @include reg;
+            &:hover {
+                color: rgb(0, 247, 255);
+            }
         }
     }
 
