@@ -1,5 +1,7 @@
 window.addEventListener('DOMContentLoaded', function () {
     "user strict";
+
+    // ! Первый слайдер
     const slider = tns({
         container: '.about__slider',
         items: 1,
@@ -25,7 +27,7 @@ window.addEventListener('DOMContentLoaded', function () {
         slider.goTo('next');
     });
 
-
+    // ! Второй слайдер
     const sliderTow = tns({
         container: '.carusel__inner',
         items: 1,
