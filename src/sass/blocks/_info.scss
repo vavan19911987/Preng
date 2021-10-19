@@ -1,9 +1,12 @@
 .info {
     padding: 19px 0 16px 0;
+    position: relative;
     &__block {
         display: grid;
-        grid-template: repeat(1, 50px) / repeat(5, 172px);
+        grid-template: repeat(1, 50px)/repeat(auto-fill, 172px);
         justify-content: space-between;
+        grid-auto-rows: 50px;
+
 
         // grid-auto-rows: minmax(50px, auto);
         // grid-template-rows: minmax(50px, auto);

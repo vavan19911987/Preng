@@ -1,9 +1,16 @@
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    // position: relative;
+}
+
+
 // others
 @import 'libs/mynormalize';
 @import 'base/fonts';
 @import 'base/colors';
 @import 'interface';
-@import 'base/mixin';
+@import 'base/mixin'; 
 @import 'base/tini';
 
 
@@ -21,6 +28,9 @@
 
 
 // media
+
+@import 'media/infoMedia';
+
 .btn {
     padding: 20px 35px;
     margin-top: 39px;
@@ -31,3 +41,5 @@
     text-transform: uppercase;
     @include bold;
 }
+
+
