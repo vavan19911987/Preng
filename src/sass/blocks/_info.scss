@@ -3,14 +3,9 @@
     position: relative;
     &__block {
         display: grid;
-        grid-template: repeat(1, 50px)/repeat(auto-fill, 172px);
+        grid-template: repeat(1, 50px)/repeat(5, 172px);
         justify-content: space-between;
         grid-auto-rows: 50px;
-
-
-        // grid-auto-rows: minmax(50px, auto);
-        // grid-template-rows: minmax(50px, auto);
-        // gap: 13px;
     }
     &__item {
         display: grid;

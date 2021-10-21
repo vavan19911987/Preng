@@ -1,6 +1,17 @@
 window.addEventListener('DOMContentLoaded', function () {
-    "user strict";
+    // "user strict";
+    // ! hamburger 
+    const hamburger = document.querySelector('.hamburger'),
+        logo =document.querySelector('.logo'),
 
+        menu = document.querySelector('.navHamburger__menu');
+
+    hamburger.addEventListener('click', function () {
+        logo.classList.toggle('logoleft');
+        menu.classList.toggle('active');
+
+    });
+    
     // ! Первый слайдер
     const slider = tns({
         container: '.about__slider',
@@ -15,7 +26,8 @@ window.addEventListener('DOMContentLoaded', function () {
                 nav: true
             },
             992: {
-                nav: true,
+                nav: false,
+                // disable: true
             },
         }
     });
@@ -52,7 +64,10 @@ window.addEventListener('DOMContentLoaded', function () {
         sliderTow.goTo('next');
     });
 
-    
+
+
+
+
 
 
 
