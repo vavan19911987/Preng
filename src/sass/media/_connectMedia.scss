@@ -1,0 +1,12 @@
+@media (max-width: 576px) {
+    .connect {
+        &__wrap {
+            img {
+                width: 40%;
+            }
+        }
+        &__title {
+            font-size: 22px;
+        }
+    }
+}

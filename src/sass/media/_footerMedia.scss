@@ -1,0 +1,40 @@
+@media (max-width: 1200px) {
+    .footer {
+
+        max-height: 900px;
+
+        &__wrap {
+            justify-content: center;
+            grid-template-columns: auto;
+        }
+        &__cont {
+            display: none;
+        }
+        &__content {
+            grid-template: repeat(1,auto)/repeat(auto,320px);
+
+            
+             ul {
+                 margin-bottom: 10px;
+             }
+        }
+}
+}
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+    .footer {
+        &__content {
+            grid-template: repeat(1,auto)/repeat(auto-fit, 320px);
+            text-align: center;
+        }
+    }
+    .p {
+        font-size: 12px;
+    }
+}
+@media (max-width: 576px) { 
+
+}

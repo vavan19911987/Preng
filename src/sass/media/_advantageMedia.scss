@@ -15,12 +15,12 @@
     .advantage {
         &__wrapper {
             grid-template: repeat(3, auto) / repeat(auto-fit, 320px);
-
         }
         &__title {
             font-size: 25px;
             h2 {
-                width: 320px;
+                width: 300px;
+                font-size: 20px;
             }
         }
         &__atem {
@@ -33,6 +33,7 @@
         }
         p {
             font-size: 16px;
+            line-height: 20px;
 
             top: 60%;
             // left: 34%;
