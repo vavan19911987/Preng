@@ -1,0 +1,41 @@
+@media (max-width: 1200px) {
+    .advantage {
+        &__wrapper {
+            grid-template: repeat(3, auto) / repeat(auto-fit, 500px);
+        }
+    }
+}
+// @media (max-width: 992px) {
+
+// }
+// @media (max-width: 768px) {
+
+// }
+@media (max-width: 576px) {
+    .advantage {
+        &__wrapper {
+            grid-template: repeat(3, auto) / repeat(auto-fit, 320px);
+
+        }
+        &__title {
+            font-size: 25px;
+            h2 {
+                width: 320px;
+            }
+        }
+        &__atem {
+            img {
+                width: 320px;
+            }
+        }
+        &__subtitle {
+            width: 320px;
+        }
+        p {
+            font-size: 16px;
+
+            top: 60%;
+            // left: 34%;
+        }
+    }
+}
