@@ -1,0 +1,31 @@
+@media (max-width: 1200px) {
+    .prengi {
+        padding-top: 79px;
+        &__wrapper {
+            grid-template: repeat(2, minmax(70px, auto)) / repeat(auto-fit, 300px);
+        }
+           
+    }
+    
+	
+}
+@media (max-width: 992px) {
+    .prengi {
+
+        &__info {
+            padding-bottom: 20px;
+        }
+       
+    }
+}
+@media (max-width: 768px) {
+    .prengi {
+        &__title {
+            font-size: 28px;
+        }
+       
+    }
+}
+// @media (max-width: 576px) { 
+
+// }
