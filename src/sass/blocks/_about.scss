@@ -1,6 +1,8 @@
 .about {
-    max-height: 600px;
-    background: url("../img/bg3.png") center no-repeat;
+    max-height: 750px;
+    // max-height: 100vh;
+
+    background: url("../img/bg3.png") no-repeat center / cover;
 
     &__header {
         padding-top: 39px;
@@ -17,9 +19,8 @@
     .logoleft {
         left: -100%;
         transition: all 0.6s;
-
     }
-  
+
     &__menu {
         @include bold;
         a {
@@ -30,15 +31,17 @@
         display: flex !important;
         justify-content: space-between;
         position: relative;
-        padding: 0px 47px 0 71px;
+        padding: 77px 47px 0 71px;
         // padding: 0 60px 0 120px;
     }
     &__phone {
         position: relative;
+        // top: 53px;
         // max-width: 500px;
         img {
-            width: 82%;
+            width: 100%;
             height: 100%;
+            padding-right: 35px;
             object-fit: contain;
         }
     }
@@ -52,10 +55,10 @@
     }
     &__text {
         // width: 530px;
-        padding-top: 133px;
+        padding-top: 100px;
         width: 486px;
 
-         .text {
+        .text {
             font-size: 28px;
             line-height: 38px;
             // width: 486px;
@@ -68,18 +71,15 @@
             // width: 450px;
             @include reg;
         }
-       
-     
     }
 
     .prev,
     .next {
         position: absolute;
-        top: 115%;
+        top: 85%;
         transform: translateY(-30%);
-        left: 45%;
+        left: 2%;
         border: none;
-        // background-color: #fff;
         cursor: pointer;
         img {
             width: 15px;
@@ -88,8 +88,13 @@
         }
     }
     .next {
-        right: 45%;
+        right: 2%;
         left: auto;
     }
+   
+    
 }
+
+
+
 

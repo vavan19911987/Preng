@@ -1,33 +1,30 @@
 // others
-@import 'libs/mynormalize';
-@import 'base/fonts';
-@import 'base/colors';
-@import 'interface';
-@import 'base/mixin'; 
-@import 'base/tini';
-
-
+@import "libs/mynormalize";
+@import "base/fonts";
+@import "base/colors";
+@import "interface";
+@import "base/mixin";
+@import "base/tini";
 
 // blocks
-@import 'blocks/title';
-@import 'blocks/info';
-@import 'blocks/about';
-@import 'blocks/prengi';
-@import 'blocks/carusel';
-@import 'blocks/advantage';
-@import 'blocks/dev';
-@import 'blocks/connect';
-@import 'blocks/footer';
-@import 'blocks/hamburger';
-
+@import "blocks/title";
+@import "blocks/info";
+@import "blocks/about";
+@import "blocks/prengi";
+@import "blocks/carusel";
+@import "blocks/advantage";
+@import "blocks/dev";
+@import "blocks/connect";
+@import "blocks/footer";
+@import "blocks/hamburger";
+@import "blocks/animation";
+@import "blocks/modal";
 
 // media
-@import 'media/infoMedia';
-@import 'media/aboutMedia.scss';
-@import 'media/navHamburgerMedia';
-
-
-
+@import "media/infoMedia";
+@import "media/aboutMedia";
+@import "media/prengiMedia";
+@import "media/carusellMedia";
 
 .btn {
     padding: 13px 35px;

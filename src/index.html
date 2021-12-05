@@ -3,6 +3,7 @@
 <!-- Оболочка документа, указываем язык содержимого -->
 <html lang="ru">
 <!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
 <head>
 	<!-- meta tags для красивых ссылок -->
 	<!-- Заголовок страницы в браузере -->
@@ -30,6 +31,7 @@
 	<!-- Подключаем CSS -->
 	<link rel="stylesheet" href="css/style.min.css" />
 </head>
+
 <body>
 	<!-- ! Отображаемое тело страницы -->
 
@@ -97,7 +99,7 @@
 	</section>
 	<!-- ? SECTION 2 -->
 	<section class="about">
-	
+
 		<div class="container">
 			<div class="about__header">
 				<div class="logo">
@@ -121,12 +123,12 @@
 						<a class="title" href="">модули</a>
 						<a class="title" href="">отрасли</a>
 						<a class="title" href="">о нас</a>
-						<a class="title" href="">наши обязательства</a>			
-						</div>
+						<a class="title" href="">наши обязательства</a>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- </div> -->
 		<div class="about__slider">
 			<div>
 				<div class="about__inner">
@@ -155,11 +157,60 @@
 				</div>
 			</div>
 		</div>
-		<a type="button" class="prev"><img src="img/arrowLeft.svg" alt="arrow"></b>
-			<a type="button" class="next"><img src="img/arrowRight.svg" alt="arrow"></b>
+		<a type="button" class="prev"><img src="img/arrowLeft.svg" alt="arrow"></a>
+		<a type="button" class="next"><img src="img/arrowRight.svg" alt="arrow"></a>
+
+
 	</section>
+
+
+	<div class="overlay">
+		<div class="modal">
+			<div class="modal__close">&times;</div>
+			<div class="modal__text">
+				<a href="#" class="entrance modal__subtitle">Войти</a>
+				<a href="#" class="registration modal__descr">Зарегистрироваться</a>
+			</div>
+			<form action="#" enctype="multipart/form-data" class="modal__form" id="form">
+				<div class="modal__input">
+					<input class="_name _req" name="name" data-validate-field="name" id="name" type="text"
+						placeholder="Владимир">
+				</div>
+				<div class="modal__input">
+					<input class="_email _req" name="email" id="email" type="email" data-validate-field="email"
+						placeholder="Vladivir@">
+				</div>
+				<div class="modal__input">
+					<input class="_tel _req" name="tel" id="tel" type="tel" data-validate-field="tel"
+						placeholder="+7 (910) 403 06 64">
+				</div>
+				<button type="submit" class="modal__btn">Зарегестрироваться</button>
+				<div class="modal__triggers">
+					<div class="modal__policy">
+						<div class="checkbox">
+							<input type="checkbox" class="checkbox__input _req" data-validate-field="checkbox">
+							<div class="checkbox__span">Я согласен(а) с <a href="/policy.html" target="_blank">политикой
+									конфиденциальности</a></div>
+						</div>
+					</div>
+				</div>
+			</form>
+
+			<form action="#" enctype="multipart/form-data" class="modal__form2" id="form2">
+				<div class="modal__input">
+					<input class="_name2 _req" name="name2" data-validate-field="name2" id="name2" type="name2"
+						placeholder="UserName">
+				</div>
+				<div class="modal__input">
+					<input class="_email _req" name="password" id="password" type="password"
+						data-validate-field="password" placeholder="password">
+				</div>
+				<button type="submit" class="modal__btn">Войти</button>
+			</form>
+		</div>
+	</div>
 	<!-- ? SECTION 3 -->
-	<!-- <section class="prengi">
+	<section class="prengi">
 		<div class="container">
 			<div class="prengi__wrapper">
 				<div class="prengi__info">
@@ -186,9 +237,9 @@
 				</div>
 			</div>
 		</div>
-	</section> -->
+	</section>
 	<!-- ? SECTION 4 -->
-	<!-- <section class="carusel">
+	<section class="carusel">
 		<div class="container">
 			<div class="carusel__title">
 				<h3>Prengi предоставляет экспертные решения
@@ -206,6 +257,8 @@
 			</div>
 		</div>
 		<div class="carusel__inner">
+
+
 			<div>
 				<img src="img/layers.png" alt="">
 			</div>
@@ -215,6 +268,8 @@
 			<div>
 				<img src="img/layers.png" alt="">
 			</div>
+
+
 		</div>
 		<a type="button" class="prev_2"><img src="img/logo/Rounded Rectangle 7 copy 3.svg" alt="arrow"></b>
 			<a type="button" class="next_2"><img src="img/logo/Rounded Rectangle 7 copy.svg" alt="arrow"></b>
@@ -222,7 +277,7 @@
 
 
 
-	</section> -->
+	</section>
 	<!-- ? SECTION 5 -->
 	<!-- <section class="advantage">
 		<div class="container">
@@ -311,7 +366,7 @@
 		</div>
 	</section> -->
 	<!-- ? SECTION 8 -->
-	 <!-- <footer class="footer">
+	<!-- <footer class="footer">
 		<div class="container">
 			<div class="footer__wrap">
 				<div class="footer__cont">
@@ -375,6 +430,8 @@
 	<!-- ! подключение скриптов -->
 	<script src="js/script.js"></script>
 	<script src="js/just-validate.min.js"></script>
+	<script src="js/inputmask.min.js"></script>
 	<script src="js/tiny-slider.js"></script>
 </body>
+
 </html>

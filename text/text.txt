@@ -1,0 +1,61 @@
+			
+устранить баг с logo
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- <div class="about__inner">
+					<div class="about__text">
+						<h1 class="text title">Управляй своим бизнесом через Smartphone</h1>
+						<h3 class="subtext title">PRENGI - Платформа для прозрачного
+							управления бизнесом</h3>
+						<button class="btn title">Получить доступ</button>
+					</div>
+					<div class="about__phone">
+						<img src="img/tel.png" alt="#">
+					</div>
+				</div> -->
+				<!-- <div class="about__inner">
+					<div class="about__text">
+						<h1 class="text title">Управляй своим бизнесом через Smartphone</h1>
+						<h3 class="subtext title">PRENGI - Платформа для прозрачного
+							управления бизнесом</h3>
+						<button class="btn title">Получить доступ</button>
+					</div>
+					<div class="about__phone">
+						<img src="img/tel.png" alt="#">
+					</div>
+				</div> -->
+
+
+@media (max-width: 1200px) {
+	
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) { 
+
+}
+
+
+
+
+			<!-- <form id="about-form" class="about-form" action="#">
+				<input name="name" required type="text" placeholder="Ваше Имя" >
+				<input name="phone" required placeholder="Ваш Телефон" data-validate-field="tel">
+				<input name="email" required type="email" placeholder="Ваш Email" data-validate-field="email">
+				<button type="submit" class="button button_form">зарегестрироваться</button>
+			</form>
+			<form id="about-form" class="about-form2" action="#">
+				<input name="phone" required placeholder="Ваш Телефон">
+				<input name="email" required type="email" placeholder="Ваш Email">
+				<button type="submit" class="button button_form">войти</button>
+			</form> -->

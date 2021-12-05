@@ -13,9 +13,9 @@
             text-align: center;
             display: inline-block;
             @include black;
-        }
+        } 
     }
-    &__tabs {
+    &__tabs { 
         width: 850px;
         // height: 64px;
         border: 1px solid $color-white;
